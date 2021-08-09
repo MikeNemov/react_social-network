@@ -2,7 +2,6 @@ import {Message} from './Message';
 import {useState, useEffect} from 'react';
 import styles from './css/message.module.sass';
 
-
 export function App() {
 
     const [text, setText] = useState('');
